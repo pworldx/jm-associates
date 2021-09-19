@@ -1,0 +1,314 @@
+Searching 4413 files for "JM &"
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\app.js:
+   57  
+   58     const mailOptions = {
+   59:       from: 'JM & ASSOCAITES <suyashpurwar4035@gmail.com>',
+   60        to: 'purwarsuyash06@gmail.com',
+   61        subject: 'A Question',
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\README.md:
+    1: # JM & ASSOCIATES
+    2  
+    3  This is a website developed for a CA Firm of a client. The website comes with a royal blue and white color theme. It is  fast as all images are compressed using png, which is recommended for web images. 
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\node_modules\bson\browser_build\bson.js:
+ 2748  	  var VALUES_BUG = false;
+ 2749  	  var proto = Base.prototype;
+ 2750: 	  var $native = proto[ITERATOR] || proto[FF_ITERATOR] || DEFAUJM && proto[DEFAULT];
+ 2751  	  var $default = (!BUGGY && $native) || getMethod(DEFAULT);
+ 2752  	  var $entries = DEFAULT ? !DEF_VALUES ? $default : getMethod('entries') : undefined;
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\node_modules\kareem\index.js:
+  279        var args = arguments;
+  280        var argsWithoutError = Array.prototype.slice.call(arguments, 1);
+  281:       if (options.nullResultByDefauJM && argsWithoutError.length === 0) {
+  282          argsWithoutError.push(null);
+  283        }
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\node_modules\lodash\_equalObjects.js:
+   70      skipCtor || (skipCtor = key == 'constructor');
+   71    }
+   72:   if (resuJM && !skipCtor) {
+   73      var objCtor = object.constructor,
+   74          othCtor = other.constructor;
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\node_modules\lodash\core.js:
+ 1313        skipCtor || (skipCtor = key == 'constructor');
+ 1314      }
+ 1315:     if (resuJM && !skipCtor) {
+ 1316        var objCtor = object.constructor,
+ 1317            othCtor = other.constructor;
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\node_modules\lodash\lodash.js:
+ 5826          skipCtor || (skipCtor = key == 'constructor');
+ 5827        }
+ 5828:       if (resuJM && !skipCtor) {
+ 5829          var objCtor = object.constructor,
+ 5830              othCtor = other.constructor;
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\node_modules\mongodb\lib\apm.js:
+  230  
+  231          // If we have an error
+  232:         if (err || (r && r.resuJM && r.result.ok === 0)) {
+  233            command.failure = err || r.result.writeErrors || r.result;
+  234  
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\node_modules\mongodb\lib\db.js:
+  782    self.command(cmd, options, function(err, result) {
+  783      if (err) return handleCallback(callback, err, null);
+  784:     if (resuJM && result.ok === 1) return handleCallback(callback, null, result.retval);
+  785      if (result)
+  786        return handleCallback(
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\node_modules\mongodb\lib\bulk\common.js:
+  285    if (err) {
+  286      result = err;
+  287:   } else if (resuJM && result.result) {
+  288      result = result.result;
+  289    } else if (result == null) {
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\node_modules\mongodb-core\lib\topologies\server.js:
+  379  
+  380            // Determine whether the server is instructing us to use a compressor
+  381:           if (result.resuJM && result.result.compression) {
+  382              for (var i = 0; i < self.s.compression.compressors.length; i++) {
+  383                if (result.result.compression.indexOf(self.s.compression.compressors[i]) > -1) {
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\node_modules\mongoose\lib\document.js:
+  904        val !== null &&
+  905        val !== undefined &&
+  906:       path in this.$__.activePaths.states.defauJM &&
+  907        deepEqual(val, schema.getDefault(this, constructing))) {
+  908      // a path with a default was $unset on the server
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\node_modules\mongoose\lib\model.js:
+  242          if (Array.isArray(result)) {
+  243            numAffected = result.length;
+  244:         } else if (result.resuJM && result.result.n !== undefined) {
+  245            numAffected = result.result.n;
+  246:         } else if (result.resuJM && result.result.nModified !== undefined) {
+  247            numAffected = result.result.nModified;
+  248          } else {
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\node_modules\semver\semver.js:
+ 1020          ret = '*';
+ 1021        }
+ 1022:     } else if (gtJM && anyX) {
+ 1023        // replace X with 0
+ 1024        if (xm)
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\node_modules\uglify-js\lib\compress.js:
+   72          passes        : 1,
+   73          properties    : !false_by_default,
+   74:         pure_getters  : !false_by_defauJM && "strict",
+   75          pure_funcs    : null,
+   76          reduce_vars   : !false_by_default,
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\public\externals\jquery\jquery-3.2.1.js:
+ 5575  	off: function( types, selector, fn ) {
+ 5576  		var handleObj, type;
+ 5577: 		if ( types && types.preventDefauJM && types.handleObj ) {
+ 5578  
+ 5579  			// ( event )  dispatched jQuery.Event
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\public\html\index.html:
+    2  <html>
+    3  <head>
+    4:    <title>JM & ASSOCIATES, cost Accountants</title>
+    5     <meta charset = "utf-8">
+    6     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    .
+  325              <div class="caption valign-wrapper">
+  326                  <div>
+  327:                     <p class = "carousel-text-head">JM & ASSOCIATES</p>
+  328                      <hr class = "carousel_hr">
+  329                      <p class = "carousel-text-content">Our unique business model aims at delivering customized tailored solutions and services.</p>
+  ...
+  335              <div class="caption valign-wrapper ">
+  336                  <div>
+  337:                     <p class = "carousel-text-head">JM & ASSOCIATES</p>
+  338                      <hr class = "carousel_hr">
+  339                      <p class = "carousel-text-content">We strive to succeed by exceeding client expectations of affordability, quality and time-bound delivery schedules.</p>
+  ...
+  345              <div class="caption valign-wrapper">
+  346                  <div>
+  347:                     <p class = "carousel-text-head">JM & ASSOCIATES</p>
+  348                      <hr class = "carousel_hr">
+  349                      <p class = "carousel-text-content">We believe in continuous development and collaborative growth.</p>
+  ...
+  355              <div class="caption valign-wrapper">
+  356                  <div>
+  357:                     <p class = "carousel-text-head">JM & ASSOCIATES</p>
+  358                      <hr class = "carousel_hr">
+  359                      <p class = "carousel-text-content">We platform a culture of transparency and responsibility.</p>
+  ...
+  376      <!-- Welcome section -->
+  377      <div class = "welcome-section container">
+  378:         <p class = "welcome-section-heading">Welcome to JM & ASSOCIATES</p>
+  379          <p class = "sub-text">An alliance of cost Accountants</p>
+  380          <img src = "/images/things/underline.png" class = "underline">
+  381  
+  382          <p class = "welcome-section-content">
+  383:             JM & Associates has been established in December 2017 in form of a partnership firm having its Head Office at Bhubaneswar and Branch office at sambalpur,Berhampur,Blasore & Anugul, by six qualified cost Accountants, CMA Bibhuti Bhusan Nayak , CMA Soumya Ranjan Jena,CMA Namrata Nayak,CMA Bibhas Ranjan Mishra,CMA Santanu Sahoo & CMA Prasant Kumar Roul.  
+  384          </p>
+  385  
+  ...
+  404                      <i class = "material-icons">extension</i>
+  405                      <p class = "quality-card-heading">Our Vision</p>
+  406:                     <p class = "quality-card-description">JM & Associates shall be a leader in providing high-quality services in the field of Audit and Assurance, Accounting, Tax and Business Advisory to domestic and international clients. The firm would have a presence in principal cities of India and would develop niche areas for the future growth of the firm.</p>
+  407                  </div>
+  408  
+  ...
+  492                      </p>
+  493                      
+  494:                     <p class = "service-body">Book keeping is an art of identifying, approving, sorting and recording company's financial transactions in a custom that they can be retrieved and presented higher management reporting. At JM & Associates our bookkeeping and outsourcing services aims at cost reduction.</p>
+  495                  </div>
+  496  
+  ...
+  698  
+  699              <div>
+  700:                 <p class = "footer-content"><span style = "font-size: 18px;">&copy;</span> JM & ASSOCIATES,  All rights reserved</p>
+  701              </div> 
+  702  
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\public\html\news.html:
+    2  <html>
+    3  <head>
+    4:    <title>JM & ASSOCIATES, cost Accountants</title>
+    5     <meta charset = "utf-8">
+    6     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    .
+  384  
+  385              <div>
+  386:                 <p class = "footer-content"><span style = "font-size: 18px;">&copy;</span> JM & ASSOCIATES,  All rights reserved</p>
+  387              </div> 
+  388  
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\public\html\aboutus\ethos.html:
+    5     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    6     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    7:    <title>Our Ethos | JM & ASSOCIATES</title>
+    8  
+    9     <style type = "text/css">
+   ..
+  335  				<p class = "etho-header">Our Vision</p>
+  336  				<hr class = "etho-hr">	<br>
+  337: 				<p class = "etho-description">JM & Associates shall be a leader in providing high-quality services in the field of Audit and Assurance, Accounting, Tax and Business Advisory to domestic and international clients. The firm would have a presence in principal cities of India and would develop niche areas for the future growth of the firm.</p>
+  338  			</div>
+  339  		</div>
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\public\html\aboutus\firm-history.html:
+    5     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    6     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    7:    <title>About the Firm | JM & ASSOCIATES</title>
+    8  
+    9     <style type = "text/css">
+   ..
+  335  
+  336  	<div class = "our-intro-container">
+  337: 		<p class = "our-intro-head">JM & ASSOCIATES</p>
+  338  		<p class = "our-intro-subtext">An alliance of cost Accountants</p>
+  339  
+  340: 		<p class = "our-intro-content">JM & Associates has been established in December 2017 in form of a partnership firm having its Head Office at Bhubaneswar and Branch office at sambalpur,Berhampur,Blasore & Anugul, by six qualified cost Accountants, CMA Bibhuti Bhusan Nayak , CMA Soumya Ranjan Jena,CMA Namrata Nayak,CMA Bibhas Ranjan Mishra,CMA Santanu Sahoo & CMA Prasant Kumar Roul. </p>
+  341  
+  342  		<p class = "our-intro-content">It is a cost accountant firm rendering comprehensive professional services, which includes audit, management consultancy, tax consultancy, accounting services, secretarial services etc. </p>
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\public\html\aboutus\team.html:
+    5     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    6     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    7:    <title>Our Team | JM & ASSOCIATES</title>
+    8  
+    9     <style type = "text/css">
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\public\html\services\audit-assurance.html:
+    5     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    6     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    7:    <title>Audit and Assurance Services | JM & ASSOCIATES</title>
+    8  
+    9     <style type = "text/css">
+   ..
+  384  
+  385           <p>
+  386:             At JM & Associates, an elite team of qualified auditors is designated to do such audits.The audit reportsare prepared strictly in accordance with the rules and regulations defined by the Government agencies.
+  387           </p>
+  388        </p>
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\public\html\services\bookkeeping-outsourcing.html:
+    5     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    6     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    7:    <title>Book Keeping and Outsourcing | JM & ASSOCIATES</title>
+    8  
+    9     <style type = "text/css">
+   ..
+  360  			Bookkeeping is the process of recording financial transactions of a business in an accounting system and the creation of reports consolidating the accounting data entered into the system. Bookkeeping services are must for all businesses to ensure timely and accurate operational/financial information is provided to the Management, Regulators,and Investors. In addition, it is a legal requirement for any business to maintain a proper book of accounts to ensure that all relevant taxes are paid and tax filings are made on time. Hence, bookkeeping is an important function in any business or not-for-profit organization in India. <br><br>
+  361  			Outsourcing is an arrangement in which a company retains another business to perform some of its work activities that could also be or usually would have been provided in-house to concentrate on what they do best and thus reducing the costs. <br><br>
+  362: 			Generally, bookkeeping is a function of the accounting department in a business. However, many small businesses do not have fully fledged accounting departments and require external bookkeeping services.At JM &Associates, our bookkeeping and outsourcing services aim at cost reduction and cost management for our clients. A specialized team of accounting professionals has been designated to cater customer’s requirements and processes. <br><br>
+  363  			Some of the bookkeeping and outsourcing services that we offer are:
+  364        </p>
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\public\html\services\corporate-services.html:
+    5     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    6     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    7:    <title>Corporate Services | JM & ASSOCIATES</title>
+    8  
+    9     <style type = "text/css">
+   ..
+  367          <ul>
+  368              <li><b>Incorporation services: </b>Incorporation is the legal process used to form a corporate entity or company. A corporation is a separate legal entity from its owners, with its own rights and obligations.
+  369:             <p>Incorporation has many advantages for a business and its owners, including protection of the owner's assets, because the company is liable for its own debts. Other advantages include the easy transfer of the business to another party through the sale of shares; the possibility of tax planning for the owner through the use of a lower tax rate than ones for personal income; and access to financing for business activities through, among others, the sale of stock.</p>     <p>We at JM & Associates provide services in respect of incorporation of domestic companies, Wholly Owned Subsidiaries, LLP’s, JV’s, Branch and Liaison offices.</p>
+  370              </li>
+  371  
+  ...
+  386  
+  387  
+  388:                 <p>We at JM & Associates assist our clients in complying with the above-mentioned requirements under the Companies Act along with the filing of documents with the RBI under FEMA(wherever required).</p>
+  389              </li>
+  390  
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\public\html\services\direct-taxation.html:
+    5     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    6     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    7:    <title>Direct Taxation | JM & ASSOCIATES</title>
+    8  
+    9     <style type = "text/css">
+   ..
+  361              Tax plays an important part in the entire operations of an organization as well as an individual. We understand the importance of tax and therefore we provide a full range of services in the field of tax to assist you. Be it compliance, litigation or advisory, we are well equipped to handle critical tax issues in today’s tax environment. Our team is a blend of young and dynamic cost accountants who specialize in tax.
+  362  
+  363:             We at JM & Associates assist our clients to provide the following services in relation to Direct Taxes.
+  364  
+  365              <ul>
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\public\html\services\indirect-taxation.html:
+    5     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    6     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    7:    <title>Indirect Taxation | JM & ASSOCIATES</title>
+    8  
+    9     <style type = "text/css">
+   ..
+  361  			Indirect taxes directly impact the cost of goods and service, cash flow, profitability and ultimately stakeholder value. Any lapse in recovering tax at transaction stage would result in adverse commercial implications. It is imperative for business entities to examine its tax structures, undertake an in-depth analysis of the tax costs and thrive for tax optimization. Precise documentation and compliance are must to be on the right side of the law.
+  362  			
+  363: 			We at JM & Associates assist our clients in providing the following services with regard to Indirect Taxes.
+  364  				
+  365  			<ul>
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\public\html\services\other-services.html:
+    5     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    6     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    7:    <title>Other Services | JM & ASSOCIATES</title>
+    8  
+    9     <style type = "text/css">
+
+C:\Users\CITIZENCHAT5\Downloads\CA-Website-master\public\html\services\risk-advisory-services.html:
+    5     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    6     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    7:    <title>Risk Advisory Services | JM & ASSOCIATES</title>
+    8  
+    9     <style type = "text/css">
+
+48 matches across 28 files
+
+
+Searching 4413 files for "JM &"
+
+0 matches
